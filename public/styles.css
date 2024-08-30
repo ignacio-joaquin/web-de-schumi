@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    margin-top: -1%;
+    padding-top: 2%;
+    margin-left: -1%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+#tituloH{
+    display: inherit;
+    font-size: 3em;
+    color: beige;
+    margin-left: auto;
+}
+#logo{
+    display: inherit;
+    width: 2cm;
+    margin-left: auto;
+}
+
+#titulos, .row {
+    display: flex;  /* aligns all child elements (flex items) in a row */
+  }
+  
+  .col {
+    flex: 1;        /* distributes space on the line equally among items */
+  }
