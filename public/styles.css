@@ -22,6 +22,10 @@ header{
     margin-left: auto;
 }
 
+#enlace{
+    margin-left: auto;
+}
+
 #titulos, .row {
     display: flex;  /* aligns all child elements (flex items) in a row */
   }
