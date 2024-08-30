@@ -6,7 +6,7 @@ header{
     padding-top: 2%;
     margin-left: -1%;
     padding-right: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     align-items: center;
 }
 
@@ -22,10 +22,38 @@ header{
     margin-left: auto;
 }
 
-#titulos, .row {
-    display: flex;  /* aligns all child elements (flex items) in a row */
-  }
-  
-  .col {
-    flex: 1;        /* distributes space on the line equally among items */
-  }
+
+#tabla{
+   margin-top: 5%;
+   width: 100%;
+   align-content: stretch;
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+   align-content: center;
+
+}
+.columna{
+    display: flex;
+    align-content: center;
+
+}
+.col{
+    width:  20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inherit;
+    font-size: inherit;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.titulos{
+    display: flex;
+    font-size: 1.5em;
+
+}
