@@ -26,6 +26,23 @@ header{
     margin-left: auto;
 }
 
+.vibrante{
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.vibrante:hover {
+    animation: vibrar 0.4s infinite;
+}
+
+@keyframes vibrar {
+            0% { transform: translateX(0) translateY(0); }
+            25% { transform: translateX(-2px) translateY(-2px); }
+            50% { transform: translateX(2px) translateY(2px); }
+            75% { transform: translateX(-2px) translateY(2px); }
+            100% { transform: translateX(2px) translateY(-2px); }
+        }
+
 #titulos, .row {
     display: flex;  /* aligns all child elements (flex items) in a row */
   }
