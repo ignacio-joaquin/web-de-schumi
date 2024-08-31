@@ -37,59 +37,53 @@ header {
 }
 
 @keyframes vibrar {
-    0% {
-        transform: translateX(0) translateY(0);
-    }
+            0% { transform: translateX(0) translateY(0); }
+            25% { transform: translateX(-2px) translateY(-2px); }
+            50% { transform: translateX(2px) translateY(2px); }
+            75% { transform: translateX(-2px) translateY(2px); }
+            100% { transform: translateX(2px) translateY(-2px); }
+        }
 
-    25% {
-        transform: translateX(-2px) translateY(-2px);
-    }
+        #tabla{
+            margin-top: 5%;
+            width: 100%;
+            align-content: stretch;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+            align-content: center;
+         
+         }
+         .columna{
+             display: flex;
+             align-content: center;
+         
+         }
+         .col{
+             width:  20%;
+             padding-top: 2%;
+             padding-bottom: 2%;
+             display: inherit;
+             font-size: inherit;
+             border-width: 1px;
+             border-color: black;
+             border-style: solid;
+             justify-content: center;
+             align-items: center;
+         }
+         
+         .titulos{
+             display: flex;
+             font-size: 1.5em;
+         
+         }
 
-    50% {
-        transform: translateX(2px) translateY(2px);
-    }
-
-    75% {
-        transform: translateX(-2px) translateY(2px);
-    }
-
-    100% {
-        transform: translateX(2px) translateY(-2px);
-    }
-}
-
-#tabla {
-    margin-top: 5%;
-    width: 100%;
-    align-content: stretch;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    align-content: center;
-
-}
-
-.columna {
-    display: flex;
-    align-content: center;
-
-}
-
-.col {
-    width: 20%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+#fotoperfil{
     display: inherit;
-    font-size: inherit;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    align-self: center;
-    justify-content: center;
-    
+    width: 4cm;
+    transition: 1.5s;
 }
 
-.titulos {
-    display: flex;
-    font-size: 1.5em;
+#fotoperfil:hover{
+        filter: grayscale(100%)
 }
