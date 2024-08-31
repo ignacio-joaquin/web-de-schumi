@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     display: flex;
     background-color: rgb(19, 19, 19);
@@ -10,23 +10,24 @@ header{
     align-items: center;
 }
 
-#tituloH{
+#tituloH {
     display: inherit;
     font-size: 3em;
     color: beige;
     margin-left: auto;
 }
-#logo{
+
+#logo {
     display: inherit;
     width: 2cm;
     margin-left: auto;
 }
 
-#enlace{
+#enlace {
     margin-left: auto;
 }
 
-.vibrante{
+.vibrante {
     display: inline-block;
     transition: transform 0.2s ease-in-out;
 }
@@ -36,44 +37,59 @@ header{
 }
 
 @keyframes vibrar {
-            0% { transform: translateX(0) translateY(0); }
-            25% { transform: translateX(-2px) translateY(-2px); }
-            50% { transform: translateX(2px) translateY(2px); }
-            75% { transform: translateX(-2px) translateY(2px); }
-            100% { transform: translateX(2px) translateY(-2px); }
-        }
+    0% {
+        transform: translateX(0) translateY(0);
+    }
 
-        #tabla{
-            margin-top: 5%;
-            width: 100%;
-            align-content: stretch;
-            border-width: 1px;
-            border-color: black;
-            border-style: solid;
-            align-content: center;
-         
-         }
-         .columna{
-             display: flex;
-             align-content: center;
-         
-         }
-         .col{
-             width:  20%;
-             padding-top: 2%;
-             padding-bottom: 2%;
-             display: inherit;
-             font-size: inherit;
-             border-width: 1px;
-             border-color: black;
-             border-style: solid;
-             align-self: center;
-             justify-content: center;
-         
-         }
-         
-         .titulos{
-             display: flex;
-             font-size: 1.5em;
-         
-         }
+    25% {
+        transform: translateX(-2px) translateY(-2px);
+    }
+
+    50% {
+        transform: translateX(2px) translateY(2px);
+    }
+
+    75% {
+        transform: translateX(-2px) translateY(2px);
+    }
+
+    100% {
+        transform: translateX(2px) translateY(-2px);
+    }
+}
+
+#tabla {
+    margin-top: 5%;
+    width: 100%;
+    align-content: stretch;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    align-content: center;
+
+}
+
+.columna {
+    display: flex;
+    align-content: center;
+
+}
+
+.col {
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inherit;
+    font-size: inherit;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.titulos {
+    display: flex;
+    font-size: 1.5em;
+}
