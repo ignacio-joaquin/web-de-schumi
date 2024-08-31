@@ -65,9 +65,10 @@ img{
             width: 100%;
             align-content: stretch;
             border-width: 1px;
-            border-color: black;
+            border-color: beige;
             border-style: solid;
             align-content: center;
+            color: white;
          
          }
          .columna{
@@ -82,7 +83,7 @@ img{
              display: inherit;
              font-size: inherit;
              border-width: 1px;
-             border-color: black;
+             border-color: beige;
              border-style: solid;
              justify-content: center;
              align-items: center;
@@ -103,4 +104,8 @@ img{
 
 #fotoperfil:hover{
         filter: grayscale(100%)
+}
+
+body{
+    background-color: #1f2122;
 }
