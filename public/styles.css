@@ -26,6 +26,7 @@ img{
     height: auto;
 }
 
+
 #tituloH{
     display: inherit;
     font-size: 3em;
@@ -85,6 +86,7 @@ img{
              border-style: solid;
              justify-content: center;
              align-items: center;
+             overflow: hidden;
          }
          
          .titulos{
