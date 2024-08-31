@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 image.dataset.originalSrc = image.src;
                 image.src = "./schumi.png";
                 image.style = "width: 4cm;    display: inherit;"
-                image.id = "";
+                if(image.id != "logo"){
+                    image.id = "";
+                }
             }, hoverDelay);
         });
 
