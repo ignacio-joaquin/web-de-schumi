@@ -67,9 +67,8 @@ header{
              border-width: 1px;
              border-color: black;
              border-style: solid;
-             align-self: center;
              justify-content: center;
-         
+             align-items: center;
          }
          
          .titulos{
@@ -77,3 +76,13 @@ header{
              font-size: 1.5em;
          
          }
+
+#fotoperfil{
+    display: inherit;
+    width: 4cm;
+    transition: 1.5s;
+}
+
+#fotoperfil:hover{
+        filter: grayscale(100%)
+}
