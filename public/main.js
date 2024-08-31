@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     images.forEach(image => {
         let hoverTimer;
-        console.log("CACA")
         image.addEventListener('mouseover', () => {
             hoverTimer = setTimeout(() => {
                 image.dataset.originalSrc = image.src;
