@@ -1,0 +1,111 @@
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    margin-top: -1%;
+    padding-top: 2%;
+    margin-left: -1%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+#tituloH{
+    display: inherit;
+    font-size: 3em;
+    color: beige;
+    margin-left: auto;
+}
+#logo{
+    display: inherit;
+    width: 2cm;
+    margin-left: auto;
+}
+
+#enlace{
+    margin-left: auto;
+}
+
+.vibrante{
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.vibrante:hover {
+    animation: vibrar 0.4s infinite;
+}
+
+@keyframes vibrar {
+            0% { transform: translateX(0) translateY(0); }
+            25% { transform: translateX(-2px) translateY(-2px); }
+            50% { transform: translateX(2px) translateY(2px); }
+            75% { transform: translateX(-2px) translateY(2px); }
+            100% { transform: translateX(2px) translateY(-2px); }
+        }
+
+        #tabla{
+            margin-top: 5%;
+            width: 100%;
+            align-content: stretch;
+            border-width: 1px;
+            border-color: beige;
+            border-style: solid;
+            align-content: center;
+            color: white;
+         
+         }
+         .columna{
+             display: flex;
+             align-content: center;
+         
+         }
+         .col{
+             width:  20%;
+             padding-top: 2%;
+             padding-bottom: 2%;
+             display: inherit;
+             font-size: inherit;
+             border-width: 1px;
+             border-color: beige;
+             border-style: solid;
+             justify-content: center;
+             align-items: center;
+             overflow: hidden;
+         }
+         
+         .titulos{
+             display: flex;
+             font-size: 1.5em;
+         
+         }
+
+#fotoperfil{
+    display: inherit;
+    width: 4cm;
+    transition: 1.5s;
+}
+
+#fotoperfil:hover{
+        filter: grayscale(100%)
+}
+
+body{
+    background-color: #1f2122;
+}
